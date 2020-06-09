@@ -1,0 +1,10 @@
+<!--Formulario para logarse y acceder-->
+<form #f="ngForm">
+  <!--<form #f="ngForm" (ngSubmit)="addUser(f.value)">-->
+    <label>Introduce Email</label>
+    <input type="email" class="form-control" name="email" ngModel>
+    <label>Introduce Contraseña</label>
+    <input type="password" class="form-control" name="password" ngModel><br>
+    <button type="submit"class="btn btn-success">Entrar</button><br>
+  </form>
+

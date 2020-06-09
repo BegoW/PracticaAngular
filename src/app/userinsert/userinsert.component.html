@@ -1,0 +1,10 @@
+<p>userinsert works!</p>
+<!-- FORMULARIO CON LOS CAMPOS QUE NECESITAMOS PARA HACER UNA LLAMADA A NUESTRO SERVICIO (PTE DE CREAR addUser) Y AÑADIR ESE USUARIO-->
+<form #f="ngForm">
+<!--<form #f="ngForm" (ngSubmit)="addUser(f.value)">-->
+  <label>Introduce Nombre</label><br>
+  <input type="text" name="first_name" ngModel><br>
+  <label>Introduce Job</label><br>
+  <input type="text" name="job" ngModel><br>
+  <button type="submit"class="btn btn-success">Añadir Usuario</button>
+</form>
