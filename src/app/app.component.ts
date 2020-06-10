@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GestionesHttpService } from './gestiones-http.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PracticaAngularREDES';
+
+  constructor(conectaApi: GestionesHttpService){
+    //conectaApi.conexionApi();
+    //conectaApi.getUsers(); - lo llamo en el componente
+  }
+
+
+
 }

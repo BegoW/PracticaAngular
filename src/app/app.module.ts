@@ -12,6 +12,7 @@ import { UserloginComponent } from './userlogin/userlogin.component';
 import { UserinsertComponent } from './userinsert/userinsert.component';
 import { UsersinfoComponent } from './usersinfo/usersinfo.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

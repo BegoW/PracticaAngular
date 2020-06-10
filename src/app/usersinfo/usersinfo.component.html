@@ -1,4 +1,13 @@
-<p>usersinfo works!</p>
-<p>Listado Usuarios</p>
-<button type="submit"class="btn btn-primary">Ver Detalle</button><br>
-<button type="submit"class="btn btn-success">Añadir Usuario</button><br>
+<p>Estás en usersinfo works! (Listado de Usuarios)</p>
+<p>Esta es la lista de Usuarios:</p>
+<!--Uso directiva ngFor para iterar sobre el array users y muestro su nombre y apellido-->
+<div *ngFor="let item of users">
+  {{item.first_name}} {{item.last_name}}
+</div>
+
+<button type="button" class="btn btn-outline-primary">Ver Detalle</button><br>
+<button type="submit"class="btn btn-success" href="#">Quiero añadir un nuevo Usuario</button><br>
+
+
+
+

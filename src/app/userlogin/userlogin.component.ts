@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../modelos/user';
 
 @Component({
   selector: 'app-userlogin',
@@ -13,4 +14,9 @@ export class UserloginComponent implements OnInit {
     console.log('ha entrado en el componenteuserlogin');
   }
 
+  public comprobarLogin(){
+
+  }
 }
+
+
